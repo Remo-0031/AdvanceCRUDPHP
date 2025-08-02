@@ -17,7 +17,4 @@ class Database {
         }
     }
 
-    protected function getDBname(): string{
-        return $this->dbname;
-    }
 }

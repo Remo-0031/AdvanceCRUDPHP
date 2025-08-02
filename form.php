@@ -56,7 +56,10 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary btn-danger" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary btn-dark">Submit</button>
+                    <button type="submit" class="btn btn-primary btn-dark">Submit</button>
+                    <!-- 2 input field first for adding and next for updating,deleting or viewing profile -->
+                     <input type="hidden" name="action" value="adduser">
+                     <input type="hidden" name="userId" id="userId" value="">
                 </div>
             </form>
         </div>
