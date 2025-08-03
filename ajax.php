@@ -57,6 +57,6 @@ if ($action == 'getallusers') {
         'count' => $total,
         'users' => $userList
     ];
-    echo json_encode($userList);
+    echo json_encode($userArr);
     exit();
 }
